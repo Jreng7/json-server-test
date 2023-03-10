@@ -1,15 +1,18 @@
 {
-  "name": "node-starter",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node index.js"
-  },
+  "name": "json-server-skills",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "yes",
+  "private": false,
   "dependencies": {
-    "http-server": "^0.12.3"
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "express": "^4.18.2",
-    "json-server": "^0.16.3"
+    "nodemon": "^2.0.21",
+    "sucrase": "^3.29.0"
+  },
+  "scripts": {
+    "dev": "node server.js"
   }
 }
